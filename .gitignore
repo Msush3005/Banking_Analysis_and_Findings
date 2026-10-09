@@ -1,0 +1,53 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+credentials.*
+*.credentials
+*.secret
+*.token
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Private or production banking exports (the checked-in dataset/ CSVs are synthetic)
+data/private/
+data/raw/
+dataset/private/
+dataset/raw/
+*.private.csv
+*.production.csv
+*_real.csv
+*_prod.csv
+*_customer_export.csv
+*_account_export.csv
+*_transaction_export.csv
+
+# Local database and temporary import artifacts
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+database/banking_analytics_db.utf8.sql
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+*.log

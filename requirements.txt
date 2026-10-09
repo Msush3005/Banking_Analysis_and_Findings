@@ -1,0 +1,5 @@
+Faker>=37,<40
+ipykernel>=6.30,<8
+mysql-connector-python>=9.4,<10
+numpy>=2.3,<3
+pandas>=2.3,<4

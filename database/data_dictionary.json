@@ -1,0 +1,37 @@
+{
+  "Customers": {
+    "purpose": "Customer master and segmentation attributes.",
+    "grain": "One row per customer.",
+    "key": "Customer_ID"
+  },
+  "Accounts": {
+    "purpose": "Customer account portfolio and balances.",
+    "grain": "One row per account.",
+    "key": "Account_ID",
+    "relationships": [
+      "Customer_ID -> Customers.Customer_ID",
+      "Branch_ID -> Branches.Branch_ID"
+    ]
+  },
+  "Transactions": {
+    "purpose": "Account-level money movement and channel/activity analysis.",
+    "grain": "One row per transaction.",
+    "key": "Transaction_ID",
+    "relationships": [
+      "Account_ID -> Accounts.Account_ID"
+    ]
+  },
+  "Loans": {
+    "purpose": "Loan application, approval, affordability and synthetic repayment-risk analysis.",
+    "grain": "One row per loan/application.",
+    "key": "Loan_ID",
+    "relationships": [
+      "Customer_ID -> Customers.Customer_ID"
+    ]
+  },
+  "Branches": {
+    "purpose": "Branch master.",
+    "grain": "One row per branch.",
+    "key": "Branch_ID"
+  }
+}

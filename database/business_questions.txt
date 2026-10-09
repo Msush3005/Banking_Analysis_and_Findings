@@ -1,0 +1,20 @@
+BANKING ANALYTICS PORTFOLIO — BUSINESS QUESTIONS
+
+1. Which customer segments contribute the most total deposits and transaction value?
+2. Which customers are high-value but have low product penetration?
+3. Which customers have high income but low account balances or low engagement?
+4. Which branches have the highest deposits, customer counts and transaction activity?
+5. Which branches have high loan exposure but weaker credit quality?
+6. Which loan types have the highest approval volume and loan exposure?
+7. How does loan-to-income ratio vary across income bands and occupations?
+8. Which approved loans have the highest estimated debt-service burden?
+9. What share of approved loans are in High/Critical risk bands?
+10. Are high-risk loans concentrated in particular cities, occupations or loan types?
+11. Which customers show unusually high transaction values or high-value transaction activity?
+12. How do transaction volumes and values change month by month?
+13. Which channels (mobile, internet, ATM, branch) dominate transaction activity?
+14. Which customers have inactive accounts but historically meaningful balances?
+15. Which account types have the strongest balances and transaction activity?
+16. Where are the strongest cross-sell opportunities: customers with accounts but no approved loan?
+17. What customer characteristics are associated with higher loan approval or rejection rates?
+18. Which branches should receive retention, cross-sell or risk-monitoring attention?
